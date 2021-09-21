@@ -14,9 +14,15 @@ on:
 # Environment variables are defined so that they can be used throughout the job definitions.
 env:
   imageRepository: 'content-init'
+<<<<<<< HEAD
   resourceGroupName: 'fabdevdef-sol'
   containerRegistryName: 'fabdevdefSUF'
   containerRegistry: 'fabdevdefsuf.azurecr.io'
+=======
+  resourceGroupName: 'fabdevopsaya-sol'
+  containerRegistryName: 'fabdevdefSUF'
+  containerRegistry: 'fabdevdefSUF.azurecr.io'
+>>>>>>> 580af97fc95db4bd59f87382500e8b2224011d8e
   dockerfilePath: './content-init'
   tag: '${{ github.run_id  }}'
 
